@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-    <em>A Python package for managing and validating your .tortilla data</em> 🫓
+    <em>A python package for managing and validating your .tortilla data</em> 🫓
 </p>
 
 <p align="center">
