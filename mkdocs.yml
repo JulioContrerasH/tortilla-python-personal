@@ -1,0 +1,71 @@
+docs_dir: .
+
+# Project information
+site_name: Pytortilla
+site_url: https://juliocontrerash.github.io/tortilla-python/
+site_author: Cesar Aybar
+site_description: A simple python format to storage files.
+
+
+# Repository
+repo_url: https://github.com/JulioContrerasH/tortilla-python
+repo_name: tortilla-python
+use_directory_urls: false
+
+# Configuration
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: '#d49f0c'
+      accent: '#d49f0c'
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      primary: '#201357'
+      accent: white
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: ./assets/images/tortilla.png
+  favicon: ./assets/images/tortilla.png
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - navigation.expand
+    - navigation.indexes
+    - header.autohide   
+
+
+extra_css:
+  - ./docs/style.css
+
+# Page tree
+nav:
+  - Home: 
+    - README.md
+    - Contributing: CONTRIBUTING.md
+    - Code of conduct: CODE_OF_CONDUCT.md
+
+# Plugins
+plugins:
+  - search
+  - same-dir
+  - mkdocstrings 
+  - awesome-pages
+
+markdown_extensions:
+  - meta
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.pathconverter
+  - pymdownx.tabbed
+  - mdx_truly_sane_lists
+  - pymdownx.tasklist
