@@ -2,13 +2,13 @@ docs_dir: .
 
 # Project information
 site_name: Pytortilla
-site_url: https://juliocontrerash.github.io/tortilla-python/
+site_url: https://juliocontrerash.github.io/tortilla-python-personal/
 site_author: Cesar Aybar
 site_description: A simple python format to storage files.
 
 
 # Repository
-repo_url: https://github.com/JulioContrerasH/tortilla-python
+repo_url: https://github.com/JulioContrerasH/tortilla-python-personal
 repo_name: tortilla-python
 use_directory_urls: false
 
